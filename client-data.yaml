@@ -1,0 +1,96 @@
+SLUG: "jack-hwangs-martial-arts-oklahoma-city"
+GOOGLE_PLACE_ID: "ChIJzShu-J4TsocRcDgLeK3zcWk"
+SCHOOL_NAME: "Jack Hwang's Martial Arts"
+MARTIAL_ART: "Taekwondo"
+SITE_URL: "https://jackhwangmartialarts.com"
+DOMAIN: "jackhwangmartialarts.com"
+
+CITY: "Oklahoma City"
+STATE: "OK"
+ZIP: "73159"
+ADDRESS_LINE_1: "1432 SW 89th St B"
+
+PHONE: "(405) 692-8676"
+EMAIL: "jackhwangtkd@gmail.com"
+HOURS: "Mon & Wed 4:00–8:30pm · Tue & Thu 4:30–8:30pm · Fri 5:30–7:00pm · Sat 10:30am–1:30pm"
+
+YEAR_FOUNDED: "1973"
+
+PRIMARY_COLOR: "#dc0000"
+SECONDARY_COLOR: "#000000"
+LOGO_IMAGE: brand_assets/logo.png
+FACEBOOK_URL: "https://www.facebook.com/jackhwangs.martialarts"
+INSTAGRAM_URL: ""
+
+HERO_IMAGE: images/hero/hero-1.jpg
+HERO_HEADLINE: "Oklahoma City's Martial Arts Legacy — Over 50 Years Strong"
+HERO_SUBHEADLINE: "Traditional Taekwondo for Kids, Teens & Adults"
+HERO_SUBTEXT: "Learn from Grand Master Hwang's lineage of champions. Real techniques, real discipline, real results."
+
+SHOW_PROOF_BAR: "true"
+STAR_RATING: "4.9"
+REVIEW_COUNT: "23"
+
+ABOUT_TEXT: "Jack Hwang's Martial Arts has been training Oklahoma City students since 1973 — over 50 years of authentic Taekwondo instruction passed down through Grand Master Hwang's legendary lineage. Our goal is to enrich your life through martial arts training, developing students into excellent Black Belts who carry the values of courtesy, integrity, perseverance, self-control, and indomitable spirit into everything they do."
+
+INSTRUCTOR_1_NAME: "Grand Master Randy McLean"
+INSTRUCTOR_1_PHOTO: images/instructor/instructor-1.jpg
+INSTRUCTOR_1_TITLE: "8th Dan Black Belt · Senior Instructor"
+INSTRUCTOR_1_BIO: "Grand Master Randy McLean began training with Grand Master Hwang in February 1990 and has earned his 8th Dan Black Belt over more than three decades of dedicated practice. A former USAF Security Policeman and University of Oklahoma graduate, he brings discipline, structure, and deep technical knowledge to every class."
+
+INSTRUCTOR_2_NAME: "Grand Master David McLennan"
+INSTRUCTOR_2_PHOTO: images/instructor/instructor-2.jpg
+INSTRUCTOR_2_TITLE: "9th Dan Black Belt · Senior Instructor"
+INSTRUCTOR_2_BIO: "Grand Master David McLennan holds a 9th Degree Black Belt, placing him among the highest-ranked Taekwondo practitioners in the region. His decades of experience under Grand Master Hwang's lineage bring an unmatched depth of technical mastery and traditional values to our students."
+
+INSTRUCTOR_3_NAME: "Master Tulio Ramirez"
+INSTRUCTOR_3_PHOTO: images/instructor/instructor-3.jpg
+INSTRUCTOR_3_TITLE: "5th Dan Black Belt · Instructor & School Manager"
+INSTRUCTOR_3_BIO: "Master Tulio Ramirez is a 5th Degree Black Belt who serves as both Instructor and School Manager at Jack Hwang's Martial Arts. His passion for the art and commitment to student development make him a cornerstone of the day-to-day training experience for students of all levels."
+
+PROGRAM_1_NAME: "Kids Martial Arts"
+PROGRAM_1_PHOTO: images/quick-tour/quick-tour-1.jpg
+PROGRAM_1_AGE_RANGE: "Ages 4–12"
+PROGRAM_1_DAYS: "Mon–Sat · Multiple class times"
+PROGRAM_1_SESSION_LEN: "45-min classes"
+PROGRAM_1_DESCRIPTION: "Our Kids Martial Arts program builds focus, discipline, and confidence through fun, structured training. Children learn respect, teamwork, and goal-setting in a safe and encouraging environment — skills that make them stand out at school and at home. Parents notice a difference in behavior and manners within weeks."
+PROGRAM_1_AUDIENCE_KIDS: "1"
+
+PROGRAM_2_NAME: "Taekwondo"
+PROGRAM_2_PHOTO: images/hero/hero-2.jpg
+PROGRAM_2_AGE_RANGE: "All Ages"
+PROGRAM_2_DAYS: "Mon–Sat · Multiple class times"
+PROGRAM_2_SESSION_LEN: "60-min classes"
+PROGRAM_2_DESCRIPTION: "From first kick to Black Belt, our Taekwondo program teaches authentic traditional technique alongside vital self-defense skills. Whether you're a complete beginner or returning after years away, our instructors meet you where you are and push you further than you thought possible — all while having fun."
+PROGRAM_2_AUDIENCE_KIDS: "1"
+PROGRAM_2_AUDIENCE_TEENS: "1"
+PROGRAM_2_AUDIENCE_ADULTS: "1"
+
+PROGRAM_3_NAME: "Black Belt Class"
+PROGRAM_3_PHOTO: images/quick-tour/quick-tour-2.jpg
+PROGRAM_3_AGE_RANGE: "Advanced Students"
+PROGRAM_3_DAYS: "Mon–Sat · Select times"
+PROGRAM_3_SESSION_LEN: "60-min classes"
+PROGRAM_3_DESCRIPTION: "For advanced students ready to push their limits alongside peers of the same skill level. Black Belt classes focus on advanced techniques, one-on-one instructor time, and the mental discipline required to continue moving up the ranks. If you've earned your Black Belt, your journey is just beginning."
+PROGRAM_3_AUDIENCE_TEENS: "1"
+PROGRAM_3_AUDIENCE_ADULTS: "1"
+
+REVIEWER_1_NAME: "Michael Peters"
+REVIEWER_1_DATE: "9 years ago"
+REVIEWER_1_TEXT: "The history of this school is awe-inspiring! Grand Master Hwang has been teaching in Oklahoma for 53 years. He teaches the traditional way of Taekwondo which is not as common these days. It is truly an honor to be his student!"
+
+REVIEWER_2_NAME: "Cody Bratcher"
+REVIEWER_2_DATE: "9 years ago"
+REVIEWER_2_TEXT: "Two of my children attend this school and Grand Master Hwang's legacy is something they are proud to be a part of. This school has a wonderful learning atmosphere and very dedicated instructors."
+
+REVIEWER_3_NAME: "Big Taink"
+REVIEWER_3_DATE: "5 years ago"
+REVIEWER_3_TEXT: "Me and my family are loving it. This school definitely takes pride in their work — step by step, very patient, and well worth adding to your daily schedule. Keep up the hard work!"
+
+TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+
+PRIVACY_POLICY_URL: "https://jackhwangmartialarts.com/Privacy"
