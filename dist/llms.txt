@@ -1,14 +1,14 @@
 # Jack Hwang's Martial Arts
 
-Jack Hwang's Martial Arts is a martial arts school in Oklahoma City, OK offering Kids Martial Arts, Taekwondo, Black Belt Class for kids, teens, and adults.
+Jack Hwang's Martial Arts is a martial arts school in Oklahoma City, OK offering Little Dragons, Regular Classes, Advanced Classes for kids, teens, and adults.
 
 ## About
 Jack Hwang's Martial Arts has been training Oklahoma City students since 1964 — over 60 years of authentic Taekwondo instruction passed down through Grand Master Hwang's legendary lineage.
 
 ## Programs
-- Kids Martial Arts
-- Taekwondo
-- Black Belt Class
+- Little Dragons
+- Regular Classes
+- Advanced Classes
 
 ## Location
 1432 SW 89th St B
