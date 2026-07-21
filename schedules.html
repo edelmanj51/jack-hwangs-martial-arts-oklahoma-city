@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class Schedule | Jack Hwang's Martial Arts Martial Arts in Oklahoma City</title>
-  <meta name="description" content="View the weekly class schedule at Jack Hwang's Martial Arts in Oklahoma City. Find times for kids, teens, and adult Taekwondo &amp; Taekwondo classes.">
+  <title>Class Schedule | [SCHOOL_NAME] Martial Arts in [CITY]</title>
+  <meta name="description" content="View the weekly class schedule at [SCHOOL_NAME] in [CITY]. Find times for kids, teens, and adult [MARTIAL_ART] &amp; [MARTIAL_ART] classes.">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth;font-size:16px}
@@ -14,11 +14,11 @@
     button{cursor:pointer;border:none;outline:none;font-family:inherit}
     ul{list-style:none}
     :root{
-      --primary:        #dc0000;
-      --primary-dark:   color-mix(in srgb, #dc0000 80%, black);
-      --secondary:      #000000;
-      --secondary-dark: color-mix(in srgb, #000000 80%, black);
-      --secondary-light:color-mix(in srgb, #000000 15%, white);
+      --primary:        [PRIMARY_COLOR];
+      --primary-dark:   color-mix(in srgb, [PRIMARY_COLOR] 80%, black);
+      --secondary:      [SECONDARY_COLOR];
+      --secondary-dark: color-mix(in srgb, [SECONDARY_COLOR] 80%, black);
+      --secondary-light:color-mix(in srgb, [SECONDARY_COLOR] 15%, white);
       --red:var(--primary);--red-dark:var(--primary-dark);--blue:var(--secondary);--blue-dark:var(--secondary-dark);--blue-light:var(--secondary-light);
       --dark:#0f172a;--dark-2:#1e293b;--gray:#64748b;
       --gray-light:#e2e8f0;--light:#f8fafc;--white:#ffffff;
@@ -159,22 +159,22 @@
   <div class="container">
     <div class="header-inner">
       <a href="index.html" class="logo">
-        <img src="brand_assets/logo.png" alt="" aria-hidden="true" height="48" style="height:48px;width:auto;display:block">
+        <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" height="48" style="height:48px;width:auto;display:block">
       </a>
       <nav id="main-nav" role="navigation" aria-label="Main navigation">
         <a href="#" onclick="openModal('modal-kit');return false">Pricing</a>
         <div class="nav-dropdown">
           <a href="programs.html">Programs</a>
           <div class="dropdown-menu">
-            <a href="program-1.html">Little Dragons</a>
-            <a href="program-2.html">Regular Classes</a>
-            <a href="program-3.html">Advanced Classes</a>
+            <a href="program-1.html">[PROGRAM_1_NAME]</a>
+            <!-- [IF:PROGRAM_2_NAME] --><a href="program-2.html">[PROGRAM_2_NAME]</a><!-- [/IF:PROGRAM_2_NAME] -->
+            <!-- [IF:PROGRAM_3_NAME] --><a href="program-3.html">[PROGRAM_3_NAME]</a><!-- [/IF:PROGRAM_3_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_4_NAME] --><a href="program-4.html">[PROGRAM_4_NAME]</a><!-- [/IF:PROGRAM_4_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_5_NAME] --><a href="program-5.html">[PROGRAM_5_NAME]</a><!-- [/IF:PROGRAM_5_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_6_NAME] --><a href="program-6.html">[PROGRAM_6_NAME]</a><!-- [/IF:PROGRAM_6_NAME] -->
           </div>
         </div>
         <a href="quick-tour.html">Quick Tour</a>
@@ -206,124 +206,19 @@
     <span class="schedule-note">Schedule subject to change — check with the front desk for the latest updates</span>
   </div>
 
-  
+  <!-- [IF:CLASS_SCHEDULE_HTML] -->
   <div class="schedule-wrap reveal">
-    <style>
-  table.sched thead th { background: #dc0000 !important; }
-  table.sched thead th:first-child { background: #a00000 !important; width: auto; }
-  .class-block { margin-bottom: 14px; }
-  .class-block:last-child { margin-bottom: 0; }
-  .class-name { font-weight: 700; font-size: 14px; margin-top: 4px; color: var(--dark); }
-  .class-instr { font-size: 12px; color: var(--gray); margin-top: 2px; }
-</style>
-<table class="sched">
-  <thead>
-    <tr>
-      <th>MONDAY</th>
-      <th>TUESDAY</th>
-      <th>WEDNESDAY</th>
-      <th>THURSDAY</th>
-      <th>FRIDAY</th>
-      <th>SATURDAY</th>
-      <th>SUNDAY</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <div class="class-block">
-          <span class="time-slot kids">5:00–5:45 PM</span>
-          <div class="class-name">Lil Dragons</div>
-          <div class="class-instr">Instr: Master Tulio Ramirez</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">6:00–6:50 PM</span>
-          <div class="class-name">White Belt</div>
-          <div class="class-instr">Instr: Grand Master Randy McLean</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">7:10–8:00 PM</span>
-          <div class="class-name">Orange &amp; Green Belt</div>
-          <div class="class-instr">Instr: Nick Norvell</div>
-        </div>
-      </td>
-      <td>
-        <div class="class-block">
-          <span class="time-slot adult">6:00–6:50 PM</span>
-          <div class="class-name">Advanced Class</div>
-          <div class="class-instr">Instr: Master Sunny Nguyen</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">7:10–8:00 PM</span>
-          <div class="class-name">White Belt</div>
-          <div class="class-instr">Instr: Nathan Sanchez</div>
-        </div>
-      </td>
-      <td>
-        <div class="class-block">
-          <span class="time-slot kids">5:00–5:45 PM</span>
-          <div class="class-name">Lil Dragons</div>
-          <div class="class-instr">Instr: Master Tulio Ramirez</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">6:00–6:50 PM</span>
-          <div class="class-name">White Belt</div>
-          <div class="class-instr">Instr: Grand Master Randy McLean</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">7:10–8:00 PM</span>
-          <div class="class-name">Orange &amp; Green Belt</div>
-          <div class="class-instr">Instr: Michael Peters</div>
-        </div>
-      </td>
-      <td>
-        <div class="class-block">
-          <span class="time-slot adult">6:00–6:50 PM</span>
-          <div class="class-name">Advanced Class</div>
-          <div class="class-instr">Instr: Master Tulio Ramirez</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot teens">7:10–8:00 PM</span>
-          <div class="class-name">White Belt</div>
-          <div class="class-instr">Instr: Erik Luevanos</div>
-        </div>
-      </td>
-      <td>
-        <div class="class-block">
-          <span class="time-slot comp">6:00–7:30 PM</span>
-          <div class="class-name">Sparring Class</div>
-          <div class="class-instr">Instr: Nick Norvell</div>
-        </div>
-      </td>
-      <td>
-        <div class="class-block">
-          <span class="time-slot adult">11:00 AM–12:00 PM</span>
-          <div class="class-name">Open to All Ranks</div>
-          <div class="class-instr">Instr: Master Tulio Ramirez</div>
-        </div>
-        <div class="class-block">
-          <span class="time-slot adult">12:00–1:00 PM</span>
-          <div class="class-name">Advanced Class</div>
-          <div class="class-instr">Instr: Master Tulio Ramirez</div>
-        </div>
-      </td>
-      <td>
-        <span class="time-empty">Closed</span>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+    [CLASS_SCHEDULE_HTML]
   </div>
-  
+  <!-- [/IF:CLASS_SCHEDULE_HTML] -->
 
   <div class="legend reveal">
-    <div class="legend-item"><div class="legend-dot" style="background:#fef3c7;border:1px solid #d97706"></div>Little Dragons</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#d1fae5;border:1px solid #059669"></div>Regular Classes</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#dbeafe;border:1px solid #3b82f6"></div>Advanced Classes</div>
-    
-    
-    
+    <div class="legend-item"><div class="legend-dot" style="background:#fef3c7;border:1px solid #d97706"></div>[PROGRAM_1_NAME]</div>
+    <!-- [IF:PROGRAM_2_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#d1fae5;border:1px solid #059669"></div>[PROGRAM_2_NAME]</div><!-- [/IF:PROGRAM_2_NAME] -->
+    <!-- [IF:PROGRAM_3_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#dbeafe;border:1px solid #3b82f6"></div>[PROGRAM_3_NAME]</div><!-- [/IF:PROGRAM_3_NAME] -->
+    <!-- [IF:PROGRAM_4_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#fce7f3;border:1px solid #db2777"></div>[PROGRAM_4_NAME]</div><!-- [/IF:PROGRAM_4_NAME] -->
+    <!-- [IF:PROGRAM_5_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#e0e7ff;border:1px solid #6366f1"></div>[PROGRAM_5_NAME]</div><!-- [/IF:PROGRAM_5_NAME] -->
+    <!-- [IF:PROGRAM_6_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#fef9c3;border:1px solid #ca8a04"></div>[PROGRAM_6_NAME]</div><!-- [/IF:PROGRAM_6_NAME] -->
   </div>
 </section>
 
@@ -348,10 +243,10 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <a href="index.html" class="logo">
-      <img src="brand_assets/logo.png" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
-        Jack Hwang's Martial Arts
+      <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
+        [SCHOOL_NAME]
       </a>
-      <p>Jack Hwang's Martial Arts is Oklahoma City's premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
+      <p>[SCHOOL_NAME] is [CITY]'s premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
       <div class="social-links">
         <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
         <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -362,15 +257,15 @@
     <div class="footer-col">
       <h3>Programs</h3>
       <ul>
-        <li><a href="program-1.html">Little Dragons</a></li>
-        <li><a href="program-2.html">Regular Classes</a></li>
-        <li><a href="program-3.html">Advanced Classes</a></li>
+        <li><a href="program-1.html">[PROGRAM_1_NAME]</a></li>
+        <!-- [IF:PROGRAM_2_NAME] --><li><a href="program-2.html">[PROGRAM_2_NAME]</a></li><!-- [/IF:PROGRAM_2_NAME] -->
+        <!-- [IF:PROGRAM_3_NAME] --><li><a href="program-3.html">[PROGRAM_3_NAME]</a></li><!-- [/IF:PROGRAM_3_NAME] -->
 
-        
+        <!-- [IF:PROGRAM_4_NAME] --><li><a href="program-4.html">[PROGRAM_4_NAME]</a></li><!-- [/IF:PROGRAM_4_NAME] -->
 
-        
+        <!-- [IF:PROGRAM_5_NAME] --><li><a href="program-5.html">[PROGRAM_5_NAME]</a></li><!-- [/IF:PROGRAM_5_NAME] -->
 
-        
+        <!-- [IF:PROGRAM_6_NAME] --><li><a href="program-6.html">[PROGRAM_6_NAME]</a></li><!-- [/IF:PROGRAM_6_NAME] -->
       </ul>
     </div>
     <div class="footer-col">
@@ -389,15 +284,15 @@
     <div class="footer-col">
       <h3>Contact Us</h3>
       <address style="font-style:normal">
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>1432 SW 89th St B<br>Oklahoma City, OK 73159</div>
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:(405) 692-8676">(405) 692-8676</a></div>
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:jackhwangtkd@gmail.com">jackhwangtkd@gmail.com</a></div>
-        
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>[ADDRESS_LINE_1]<br>[CITY], [STATE] [ZIP]</div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:[PHONE]">[PHONE]</a></div>
+        <!-- [IF:EMAIL] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:[EMAIL]">[EMAIL]</a></div><!-- [/IF:EMAIL] -->
+        <!-- [IF:DAYS_OPEN] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>[DAYS_OPEN]</div><!-- [/IF:DAYS_OPEN] -->
       </address>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 Jack Hwang's Martial Arts. All rights reserved.</p>
+    <p>© [CURRENT_YEAR] [SCHOOL_NAME]. All rights reserved.</p>
     <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
   </div>
 </footer>
@@ -409,13 +304,13 @@
     <div id="modal-trial-body">
       <h2 class="modal-title" id="title-trial">Book Your Free Trial Today</h2>
       <p class="modal-sub">No commitment. No experience needed. Just show up and try it free.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-before-build')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','[TRIAL_WEBHOOK_URL]')">
         <div class="field"><input type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div>
         <div class="field"><input type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="tr-email">Email</label><input id="tr-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="tr-phone">Phone</label><input id="tr-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="tr-program">Program</label><select id="tr-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from Jack Hwang's Martial Arts. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Reserve My Free Trial →</button>
       </form>
     </div>
@@ -430,13 +325,13 @@
     <div id="modal-kit-body">
       <h2 class="modal-title" id="title-kit">Looking For Our Pricing?</h2>
       <p class="modal-sub">Fill out the form below and one of our coaches will send you our pricing, class schedule, and EXCLUSIVE promo information for our classes.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-before-build')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','[STARTER_KIT_WEBHOOK_URL]')">
         <div class="field"><input type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div>
         <div class="field"><input type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="kit-email">Email</label><input id="kit-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="kit-phone">Phone</label><input id="kit-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="kit-program">Program</label><select id="kit-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from Jack Hwang's Martial Arts. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Send Me The Info →</button>
       </form>
     </div>
@@ -471,7 +366,7 @@
     e.preventDefault();var form=e.target,data={};new FormData(form).forEach(function(v,k){data[k]=v});
     var btn=form.querySelector('[type=submit]');btn.textContent='Sending…';btn.disabled=true;
     if(url&&url.charAt(0)!=='[')fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(function(){});
-    setTimeout(function(){if(mid==='modal-trial'){window.location.href='https://PLACEHOLDER-replace-before-build';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
+    setTimeout(function(){if(mid==='modal-trial'){window.location.href='[BOOKING_CALENDAR_URL]';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
   };
 }());
 </script>

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Little Dragons | Jack Hwang's Martial Arts Martial Arts in Oklahoma City</title>
-  <meta name="description" content="Little Dragons at Jack Hwang's Martial Arts in Oklahoma City. [One-sentence program description for SEO.]">
+  <title>[PROGRAM_NAME] | [SCHOOL_NAME] Martial Arts in [CITY]</title>
+  <meta name="description" content="[PROGRAM_NAME] at [SCHOOL_NAME] in [CITY]. [One-sentence program description for SEO.]">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth;font-size:16px}
@@ -14,11 +14,11 @@
     button{cursor:pointer;border:none;outline:none;font-family:inherit}
     ul{list-style:none}
     :root{
-      --primary:        #dc0000;
-      --primary-dark:   color-mix(in srgb, #dc0000 80%, black);
-      --secondary:      #000000;
-      --secondary-dark: color-mix(in srgb, #000000 80%, black);
-      --secondary-light:color-mix(in srgb, #000000 15%, white);
+      --primary:        [PRIMARY_COLOR];
+      --primary-dark:   color-mix(in srgb, [PRIMARY_COLOR] 80%, black);
+      --secondary:      [SECONDARY_COLOR];
+      --secondary-dark: color-mix(in srgb, [SECONDARY_COLOR] 80%, black);
+      --secondary-light:color-mix(in srgb, [SECONDARY_COLOR] 15%, white);
       --red:var(--primary);--red-dark:var(--primary-dark);--blue:var(--secondary);--blue-dark:var(--secondary-dark);--blue-light:var(--secondary-light);
       --gold:var(--secondary);
       --dark:#0f172a;--dark-2:#1e293b;--gray:#64748b;
@@ -217,23 +217,23 @@
   <div class="container">
     <div class="header-inner">
       <a href="index.html" class="logo">
-      <img src="brand_assets/logo.png" alt="" aria-hidden="true" style="height:48px;width:auto" onerror="this.style.display='none'">
-        Jack Hwang's Martial Arts
+      <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" style="height:48px;width:auto" onerror="this.style.display='none'">
+        [SCHOOL_NAME]
       </a>
       <nav id="main-nav" role="navigation" aria-label="Main navigation">
         <a href="#" onclick="openModal('modal-kit');return false">Pricing</a>
         <div class="nav-dropdown">
           <a href="programs.html">Programs</a>
           <div class="dropdown-menu">
-            <a href="program-1.html">Little Dragons</a>
-            <a href="program-2.html">Regular Classes</a>
-            <a href="program-3.html">Advanced Classes</a>
+            <a href="program-1.html">[PROGRAM_1_NAME]</a>
+            <!-- [IF:PROGRAM_2_NAME] --><a href="program-2.html">[PROGRAM_2_NAME]</a><!-- [/IF:PROGRAM_2_NAME] -->
+            <!-- [IF:PROGRAM_3_NAME] --><a href="program-3.html">[PROGRAM_3_NAME]</a><!-- [/IF:PROGRAM_3_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_4_NAME] --><a href="program-4.html">[PROGRAM_4_NAME]</a><!-- [/IF:PROGRAM_4_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_5_NAME] --><a href="program-5.html">[PROGRAM_5_NAME]</a><!-- [/IF:PROGRAM_5_NAME] -->
 
-            
+            <!-- [IF:PROGRAM_6_NAME] --><a href="program-6.html">[PROGRAM_6_NAME]</a><!-- [/IF:PROGRAM_6_NAME] -->
           </div>
         </div>
         <a href="quick-tour.html">Quick Tour</a>
@@ -271,9 +271,9 @@
 
 <!-- ============================================================
      SECTION 1: PROGRAM CONTENT — photo + description + challenges
-     Tokens: Little Dragons, Taekwondo, Oklahoma City,
-             Ages 4–6, (experience: hardcoded "No experience required"),
-             Little Dragons is our dedicated program for 4–6 year olds — designed to build focus, listening skills, and confidence through age-appropriate martial arts training. Young students learn respect, coordination, and self-control in a fun, structured environment. Parents consistently notice improvements in behavior and attention within weeks., [CHALLENGE 1–3]
+     Tokens: [PROGRAM_NAME], [MARTIAL_ART], [CITY],
+             [AGE_RANGE], (experience: hardcoded "No experience required"),
+             [PROGRAM_DESCRIPTION], [CHALLENGE 1–3]
      SWAP: replace .prog-photo-placeholder div with real <img>
 ============================================================ -->
 <section id="prog-content">
@@ -283,25 +283,25 @@
       <!-- LEFT: Photo + meta pills -->
       <div class="prog-photo-col">
         <div class="prog-photo">
-          <img src="images/quick-tour/quick-tour-1.jpg" alt="Little Dragons at Jack Hwang's Martial Arts" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">
+          <img src="[PROGRAM_PHOTO]" alt="[PROGRAM_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:top">
         </div>
         <div class="prog-photo-meta">
           <div class="prog-meta-pill">
             <span class="pill-label">Age Range</span>
-            <span class="pill-value">Ages 4–6</span>
+            <span class="pill-value">[AGE_RANGE]</span>
           </div>
           <div class="prog-meta-pill">
             <span class="pill-label">Schedule</span>
-            <span class="pill-value">Mon–Sat · Multiple class times</span>
+            <span class="pill-value">[PROGRAM_DAYS]</span>
           </div>
         </div>
       </div>
 
       <!-- RIGHT: H1, meta, description, challenges -->
       <div class="prog-text-col">
-        <h1 class="prog-h1">Little Dragons Classes in Oklahoma City</h1>
-        <p class="prog-meta-row"><strong>Age Range:</strong> Ages 4–6 &nbsp;|&nbsp; <strong>Schedule:</strong> Mon–Sat · Multiple class times &nbsp;|&nbsp; <strong>Experience:</strong> No experience required</p>
-        Little Dragons is our dedicated program for 4–6 year olds — designed to build focus, listening skills, and confidence through age-appropriate martial arts training. Young students learn respect, coordination, and self-control in a fun, structured environment. Parents consistently notice improvements in behavior and attention within weeks.
+        <h1 class="prog-h1">[PROGRAM_NAME] Classes in [CITY]</h1>
+        <p class="prog-meta-row"><strong>Age Range:</strong> [AGE_RANGE] &nbsp;|&nbsp; <strong>Schedule:</strong> [PROGRAM_DAYS] &nbsp;|&nbsp; <strong>Experience:</strong> No experience required</p>
+        [PROGRAM_DESCRIPTION]
 
         <div class="challenges-block">
           <h3>Does your student face any of these challenges?</h3>
@@ -339,7 +339,7 @@
        PROGRAM_N_AUDIENCE_ADULTS → ages 16+  (adults)
 ============================================================ -->
 
-
+<!-- [IF:PROGRAM_AUDIENCE_KIDS] -->
 <section id="benefits">
   <div class="container">
     <div class="benefits-header reveal">
@@ -376,72 +376,166 @@
     </div>
   </div>
 </section>
+<!-- [/IF:PROGRAM_AUDIENCE_KIDS] -->
 
-
-
-
-
-
-
-<!-- ============================================================
-     SECTION 4: TESTIMONIALS
-     Tokens: Oklahoma City, Jack Hwang's Martial Arts, REVIEWER_N_NAME, REVIEWER_N_TEXT
-     SWAP: replace .testi-avatar div with <img> for profile photo
-============================================================ -->
-
-<section id="testimonials">
+<!-- [IF:PROGRAM_AUDIENCE_TEENS] -->
+<section id="benefits">
   <div class="container">
-    <div class="testi-header reveal">
-      <span class="eyebrow">Community Love</span>
-      <h2>Why Oklahoma City Families Love<br>Jack Hwang's Martial Arts</h2>
-      <p>Don't take our word for it — here's what our students and parents say.</p>
+    <div class="benefits-header reveal">
+      <span class="eyebrow">What They'll Gain</span>
+      <h2>What Your Teen Will Get Out of This</h2>
+      <p>Real results — on the mats and in every part of life.</p>
     </div>
-    <div class="testi-grid">
+    <div class="benefits-grid">
 
-      <article class="testi-card reveal">
-        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
-        <p class="testi-quote">"The history of this school is awe-inspiring! Grand Master Hwang has been teaching in Oklahoma for 53 years. He teaches the traditional way of Taekwondo which is not as common these days. It is truly an honor to be his student!"</p>
-        <div class="testi-author">
-          <div class="testi-avatar" style="background:linear-gradient(135deg,#4285f4,#34a853)" aria-hidden="true">M</div>
-          <div>
-            <div class="testi-name">Michael Peters</div>
-            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
-          </div>
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
         </div>
-      </article>
+        <h3>Real Self-Defense Skills</h3>
+        <p>Teens learn practical techniques that work against real threats — not choreography. They'll know what to do when it counts and have the confidence to back it up.</p>
+      </div>
 
-      <article class="testi-card reveal">
-        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
-        <p class="testi-quote">"Two of my children attend this school and Grand Master Hwang's legacy is something they are proud to be a part of. This school has a wonderful learning atmosphere and very dedicated instructors."</p>
-        <div class="testi-author">
-          <div class="testi-avatar" style="background:linear-gradient(135deg,#ea4335,#fbbc05)" aria-hidden="true">C</div>
-          <div>
-            <div class="testi-name">Cody Bratcher</div>
-            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
-          </div>
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-      </article>
+        <h3>Build Confidence and Resilience</h3>
+        <p>Every technique mastered and every challenge pushed through builds the kind of quiet, earned confidence that carries into school, social situations, and their future.</p>
+      </div>
 
-      <article class="testi-card reveal">
-        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
-        <p class="testi-quote">"Me and my family are loving it. This school definitely takes pride in their work — step by step, very patient, and well worth adding to your daily schedule. Keep up the hard work!"</p>
-        <div class="testi-author">
-          <div class="testi-avatar" style="background:linear-gradient(135deg,#7c3aed,#2563eb)" aria-hidden="true">B</div>
-          <div>
-            <div class="testi-name">Big Taink</div>
-            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
-          </div>
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
         </div>
-      </article>
-
-      
-
-      
+        <h3>Develop Focus and Discipline</h3>
+        <p>Martial arts training sharpens the mental skills teens need most — attention, self-control, and the drive to finish what they start. Skills that show up directly in school and beyond.</p>
+      </div>
 
     </div>
   </div>
 </section>
+<!-- [/IF:PROGRAM_AUDIENCE_TEENS] -->
 
+<!-- [IF:PROGRAM_AUDIENCE_ADULTS] -->
+<section id="benefits">
+  <div class="container">
+    <div class="benefits-header reveal">
+      <span class="eyebrow">What You'll Gain</span>
+      <h2>How This Program Will Help You</h2>
+      <p>Real, measurable results — on the mats and in everyday life.</p>
+    </div>
+    <div class="benefits-grid">
+
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Real Self-Defense Skills</h3>
+        <p>Learn leverage-based techniques that work under pressure — not choreography. You'll gain practical tools to stay safe and calm in any real-world situation.</p>
+      </div>
+
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96-.46 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.44-4.14zm5 0a2.5 2.5 0 0 1 1.44 4.14 2.5 2.5 0 0 1 1.32 4.24 3 3 0 0 1-.34 5.58 2.5 2.5 0 0 1-2.96 3.08A2.5 2.5 0 0 1 12 19.5v-15A2.5 2.5 0 0 1 14.5 2z"/></svg>
+        </div>
+        <h3>Build Unshakeable Confidence</h3>
+        <p>Every stripe earned and every technique mastered builds a quiet, earned confidence that carries into work, social situations, and every other area of your life.</p>
+      </div>
+
+      <div class="benefit-card reveal">
+        <div class="benefit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
+        <h3>Get Fit &amp; Relieve Stress</h3>
+        <p>Training is a full-body workout that builds strength, flexibility, and endurance — while giving you a place to leave the stress of the day on the mats where it belongs.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- [/IF:PROGRAM_AUDIENCE_ADULTS] -->
+
+
+<!-- ============================================================
+     SECTION 4: TESTIMONIALS
+     Tokens: [CITY], [SCHOOL_NAME], REVIEWER_N_NAME, REVIEWER_N_TEXT
+     SWAP: replace .testi-avatar div with <img> for profile photo
+============================================================ -->
+<!-- [IF:HAS_REVIEWERS] -->
+<section id="testimonials">
+  <div class="container">
+    <div class="testi-header reveal">
+      <span class="eyebrow">Community Love</span>
+      <h2>Why [CITY] Families Love<br>[SCHOOL_NAME]</h2>
+      <p>Don't take our word for it — here's what our students and parents say.</p>
+    </div>
+    <div class="testi-grid">
+
+      <!-- [IF:REVIEWER_1_NAME] --><article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-quote">"[REVIEWER_1_TEXT]"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#4285f4,#34a853)" aria-hidden="true">[R_1_INITIAL]</div>
+          <div>
+            <div class="testi-name">[REVIEWER_1_NAME]</div>
+            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
+          </div>
+        </div>
+      </article><!-- [/IF:REVIEWER_1_NAME] -->
+
+      <!-- [IF:REVIEWER_2_NAME] --><article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-quote">"[REVIEWER_2_TEXT]"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#ea4335,#fbbc05)" aria-hidden="true">[R_2_INITIAL]</div>
+          <div>
+            <div class="testi-name">[REVIEWER_2_NAME]</div>
+            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
+          </div>
+        </div>
+      </article><!-- [/IF:REVIEWER_2_NAME] -->
+
+      <!-- [IF:REVIEWER_3_NAME] --><article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-quote">"[REVIEWER_3_TEXT]"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#7c3aed,#2563eb)" aria-hidden="true">[R_3_INITIAL]</div>
+          <div>
+            <div class="testi-name">[REVIEWER_3_NAME]</div>
+            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
+          </div>
+        </div>
+      </article><!-- [/IF:REVIEWER_3_NAME] -->
+
+      <!-- [IF:REVIEWER_4_NAME] --><article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-quote">"[REVIEWER_4_TEXT]"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#065f46,#0d9488)" aria-hidden="true">[R_4_INITIAL]</div>
+          <div>
+            <div class="testi-name">[REVIEWER_4_NAME]</div>
+            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
+          </div>
+        </div>
+      </article><!-- [/IF:REVIEWER_4_NAME] -->
+
+      <!-- [IF:REVIEWER_5_NAME] --><article class="testi-card reveal">
+        <div class="testi-stars" aria-label="5 stars">★★★★★</div>
+        <p class="testi-quote">"[REVIEWER_5_TEXT]"</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:linear-gradient(135deg,#b45309,#d97706)" aria-hidden="true">[R_5_INITIAL]</div>
+          <div>
+            <div class="testi-name">[REVIEWER_5_NAME]</div>
+            <div class="testi-source"><span class="google-g-small" aria-hidden="true">G</span>via Google</div>
+          </div>
+        </div>
+      </article><!-- [/IF:REVIEWER_5_NAME] -->
+
+    </div>
+  </div>
+</section>
+<!-- [/IF:HAS_REVIEWERS] -->
 
 
 <!-- ============================================================
@@ -459,15 +553,15 @@
 
     <div class="faq-item reveal" role="listitem">
       <div class="faq-q" onclick="toggleFaq(this)" role="button" aria-expanded="false">
-        Do I need any experience to join Little Dragons?
+        Do I need any experience to join [PROGRAM_NAME]?
         <span class="faq-toggle" aria-hidden="true">+</span>
       </div>
-      <div class="faq-a">No experience is required. Little Dragons is designed to welcome complete beginners. Our instructors guide every student through technique step by step from the very first class — you just need to show up.</div>
+      <div class="faq-a">No experience is required. [PROGRAM_NAME] is designed to welcome complete beginners. Our instructors guide every student through technique step by step from the very first class — you just need to show up.</div>
     </div>
 
     <div class="faq-item reveal" role="listitem">
       <div class="faq-q" onclick="toggleFaq(this)" role="button" aria-expanded="false">
-        How much does Little Dragons cost?
+        How much does [PROGRAM_NAME] cost?
         <span class="faq-toggle" aria-hidden="true">+</span>
       </div>
       <div class="faq-a">Pricing depends on membership tier and training frequency. Download our free Starter Kit for current pricing and any active promotions, or book a free intro session and speak directly with our team.</div>
@@ -522,10 +616,10 @@
   <div class="footer-grid">
     <div class="footer-brand">
       <a href="index.html" class="logo">
-      <img src="brand_assets/logo.png" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
-        Jack Hwang's Martial Arts
+      <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
+        [SCHOOL_NAME]
       </a>
-      <p>Jack Hwang's Martial Arts is Oklahoma City's premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
+      <p>[SCHOOL_NAME] is [CITY]'s premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
       <div class="social-links">
         <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
         <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -536,12 +630,12 @@
     <div class="footer-col">
       <h3>Programs</h3>
       <ul>
-        <li><a href="program-1.html">Little Dragons</a></li>
-        <li><a href="program-2.html">Regular Classes</a></li>
-        <li><a href="program-3.html">Advanced Classes</a></li>
-        
-        
-        
+        <li><a href="program-1.html">[PROGRAM_1_NAME]</a></li>
+        <!-- [IF:PROGRAM_2_NAME] --><li><a href="program-2.html">[PROGRAM_2_NAME]</a></li><!-- [/IF:PROGRAM_2_NAME] -->
+        <!-- [IF:PROGRAM_3_NAME] --><li><a href="program-3.html">[PROGRAM_3_NAME]</a></li><!-- [/IF:PROGRAM_3_NAME] -->
+        <!-- [IF:PROGRAM_4_NAME] --><li><a href="program-4.html">[PROGRAM_4_NAME]</a></li><!-- [/IF:PROGRAM_4_NAME] -->
+        <!-- [IF:PROGRAM_5_NAME] --><li><a href="program-5.html">[PROGRAM_5_NAME]</a></li><!-- [/IF:PROGRAM_5_NAME] -->
+        <!-- [IF:PROGRAM_6_NAME] --><li><a href="program-6.html">[PROGRAM_6_NAME]</a></li><!-- [/IF:PROGRAM_6_NAME] -->
       </ul>
     </div>
     <div class="footer-col">
@@ -560,15 +654,15 @@
     <div class="footer-col">
       <h3>Contact Us</h3>
       <address style="font-style:normal">
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>1432 SW 89th St B<br>Oklahoma City, OK 73159</div>
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:(405) 692-8676">(405) 692-8676</a></div>
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:jackhwangtkd@gmail.com">jackhwangtkd@gmail.com</a></div>
-        
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>[ADDRESS_LINE_1]<br>[CITY], [STATE] [ZIP]</div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:[PHONE]">[PHONE]</a></div>
+        <!-- [IF:EMAIL] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:[EMAIL]">[EMAIL]</a></div><!-- [/IF:EMAIL] -->
+        <!-- [IF:DAYS_OPEN] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>[DAYS_OPEN]</div><!-- [/IF:DAYS_OPEN] -->
       </address>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© 2026 Jack Hwang's Martial Arts. All rights reserved.</p>
+    <p>© [CURRENT_YEAR] [SCHOOL_NAME]. All rights reserved.</p>
     <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
   </div>
 </footer>
@@ -581,13 +675,13 @@
     <div id="modal-trial-body">
       <h2 class="modal-title" id="title-trial">Book Your Free Trial Today</h2>
       <p class="modal-sub">No commitment. No experience needed. Just show up and try it free.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-before-build')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','[TRIAL_WEBHOOK_URL]')">
         <div class="field"><input type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div>
         <div class="field"><input type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="tr-email">Email</label><input id="tr-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="tr-phone">Phone</label><input id="tr-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="tr-program">Program</label><select id="tr-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from Jack Hwang's Martial Arts. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Reserve My Free Trial →</button>
       </form>
     </div>
@@ -602,13 +696,13 @@
     <div id="modal-kit-body">
       <h2 class="modal-title" id="title-kit">Get Pricing + Schedule</h2>
       <p class="modal-sub">We'll send you our full program guide, pricing, and weekly schedule.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-before-build')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','[STARTER_KIT_WEBHOOK_URL]')">
         <div class="field"><input type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div>
         <div class="field"><input type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="kit-email">Email</label><input id="kit-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="kit-phone">Phone</label><input id="kit-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="kit-program">Program</label><select id="kit-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from Jack Hwang's Martial Arts. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Send Me the Pricing Guide →</button>
       </form>
     </div>
@@ -688,14 +782,14 @@
       <div class="quiz-progress"><div class="quiz-bar" style="width:100%"></div></div>
       <h2 class="modal-title">Almost There!</h2>
       <p class="modal-sub">We found the perfect program for you. Enter your info and we'll send your personalized recommendation.</p>
-      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','https://PLACEHOLDER-replace-before-build')">
+      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','[QUIZ_WEBHOOK_URL]')">
         <input type="hidden" name="quizAnswers" id="quiz-answers">
         <div class="field"><input type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div>
         <div class="field"><input type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="qz-email">Email</label><input id="qz-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="qz-phone">Phone</label><input id="qz-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="qz-program">Program</label><select id="qz-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from Jack Hwang's Martial Arts. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Get My Personalized Plan →</button>
       </form>
     </div>
@@ -742,7 +836,7 @@
         document.querySelectorAll('#modal-quiz .quiz-step').forEach(function(s){s.classList.remove('active')});
         document.getElementById('qz-success').classList.add('active');
       } else if(mid==='modal-trial'){
-        window.location.href='https://PLACEHOLDER-replace-before-build';
+        window.location.href='[BOOKING_CALENDAR_URL]';
       } else {
         var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');
         if(b)b.style.display='none';if(s)s.style.display='block';
