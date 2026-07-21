@@ -75,6 +75,113 @@ PROGRAM_3_DESCRIPTION: "Our advanced program is for purple belt students and abo
 PROGRAM_3_AUDIENCE_TEENS: "1"
 PROGRAM_3_AUDIENCE_ADULTS: "1"
 
+CLASS_SCHEDULE_HTML: |
+  <style>
+    table.sched thead th { background: #dc0000 !important; }
+    table.sched thead th:first-child { background: #a00000 !important; width: auto; }
+    .class-block { margin-bottom: 14px; }
+    .class-block:last-child { margin-bottom: 0; }
+    .class-name { font-weight: 700; font-size: 14px; margin-top: 4px; color: var(--dark); }
+    .class-instr { font-size: 12px; color: var(--gray); margin-top: 2px; }
+  </style>
+  <table class="sched">
+    <thead>
+      <tr>
+        <th>MONDAY</th>
+        <th>TUESDAY</th>
+        <th>WEDNESDAY</th>
+        <th>THURSDAY</th>
+        <th>FRIDAY</th>
+        <th>SATURDAY</th>
+        <th>SUNDAY</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="class-block">
+            <span class="time-slot kids">5:00–5:45 PM</span>
+            <div class="class-name">Lil Dragons</div>
+            <div class="class-instr">Instr: Master Tulio Ramirez</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">6:00–6:50 PM</span>
+            <div class="class-name">White Belt</div>
+            <div class="class-instr">Instr: Grand Master Randy McLean</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">7:10–8:00 PM</span>
+            <div class="class-name">Orange &amp; Green Belt</div>
+            <div class="class-instr">Instr: Nick Norvell</div>
+          </div>
+        </td>
+        <td>
+          <div class="class-block">
+            <span class="time-slot adult">6:00–6:50 PM</span>
+            <div class="class-name">Advanced Class</div>
+            <div class="class-instr">Instr: Master Sunny Nguyen</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">7:10–8:00 PM</span>
+            <div class="class-name">White Belt</div>
+            <div class="class-instr">Instr: Nathan Sanchez</div>
+          </div>
+        </td>
+        <td>
+          <div class="class-block">
+            <span class="time-slot kids">5:00–5:45 PM</span>
+            <div class="class-name">Lil Dragons</div>
+            <div class="class-instr">Instr: Master Tulio Ramirez</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">6:00–6:50 PM</span>
+            <div class="class-name">White Belt</div>
+            <div class="class-instr">Instr: Grand Master Randy McLean</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">7:10–8:00 PM</span>
+            <div class="class-name">Orange &amp; Green Belt</div>
+            <div class="class-instr">Instr: Michael Peters</div>
+          </div>
+        </td>
+        <td>
+          <div class="class-block">
+            <span class="time-slot adult">6:00–6:50 PM</span>
+            <div class="class-name">Advanced Class</div>
+            <div class="class-instr">Instr: Master Tulio Ramirez</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot teens">7:10–8:00 PM</span>
+            <div class="class-name">White Belt</div>
+            <div class="class-instr">Instr: Erik Luevanos</div>
+          </div>
+        </td>
+        <td>
+          <div class="class-block">
+            <span class="time-slot comp">6:00–7:30 PM</span>
+            <div class="class-name">Sparring Class</div>
+            <div class="class-instr">Instr: Nick Norvell</div>
+          </div>
+        </td>
+        <td>
+          <div class="class-block">
+            <span class="time-slot adult">11:00 AM–12:00 PM</span>
+            <div class="class-name">Open to All Ranks</div>
+            <div class="class-instr">Instr: Master Tulio Ramirez</div>
+          </div>
+          <div class="class-block">
+            <span class="time-slot adult">12:00–1:00 PM</span>
+            <div class="class-name">Advanced Class</div>
+            <div class="class-instr">Instr: Master Tulio Ramirez</div>
+          </div>
+        </td>
+        <td>
+          <span class="time-empty">Closed</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
 REVIEWER_1_NAME: "Michael Peters"
 REVIEWER_1_DATE: "9 years ago"
 REVIEWER_1_TEXT: "The history of this school is awe-inspiring! Grand Master Hwang has been teaching in Oklahoma for 53 years. He teaches the traditional way of Taekwondo which is not as common these days. It is truly an honor to be his student!"
